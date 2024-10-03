@@ -4,10 +4,11 @@ import { useState, useEffect } from "react";
 import { getSocialProfiles, SocialProfile } from "thirdweb/social";
 import { client } from "./client";
 import { ENSCard } from "./components/ENSCard";
-import { FarcasterCard } from "./components/FarcasterCard";
+import { FarcasterCard } from "./components/FarCasterCard";
 import { LensCard } from "./components/LensCard";
 import { CardSkeleton } from "./components/CardSkeleton";
 import { shortenAddress } from "thirdweb/utils";
+import React from "react";
 
 type FilterType = "all" | "ens" | "farcaster" | "lens";
 
